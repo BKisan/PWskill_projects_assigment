@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../assete/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px;
+    height: 90px;
+    background-color: black;
+}
+
+ul{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap:40px;
+    margin-right:30%;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: #fff;;
+}
+
+nav button{
+    background-color: #b90ec5;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #b90ec5;
+}
+
+/* main */
+/* main */
+/* main */
+
+main{
+    margin-top: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.A{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+.B{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+.C{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;}
+
+button{
+    background-color: #b90ec5;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin-top: 34px;
+    border-radius: 5px;
+    border: 1px solid #b90ec5;
+}
